@@ -29,13 +29,11 @@ public class ContactMain {
                 ContactUpdate.ViewContacts();
             else if (userInput == 2)
                 ContactUpdate.addContact();
-            else if (userInput == 3)
+            else if (userInput == 3) {
                 ContactUpdate.searchByName();
-            else if (userInput == 4) {
+            } else if (userInput == 4) {
                 ContactUpdate.deleteContact();
             } else if (userInput == 5) {
-                ContactUpdate.addBirthDay();
-            } else if (userInput == 6) {
                 ContactUpdate.exit();
             } else {
                 System.out.println("Invalid input.");
